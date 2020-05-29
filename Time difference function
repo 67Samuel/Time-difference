@@ -15,6 +15,7 @@ def time_difference(start, end):
             seconds = int(round(float(time_list[2]), 0))
         elif len(delta_list) == 1:
             time_list = delta.split(':')
+            day = 0
             hours = int(time_list[0])
             minutes = int(time_list[1])
             seconds = int(round(float(time_list[2]), 0))
